@@ -1,0 +1,120 @@
+.feedbacks {
+    padding: 32px 0;
+}
+
+.feedbacks-container {
+    min-width: 288px;
+}
+
+.feedbacks-title {
+    font-family: "Comfortaa",  sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030A06;
+    margin-bottom: 32px;
+    width: 288px;
+    height: 86px;
+}
+
+.feedbacks-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.feedbacks-item {
+    padding: 0;
+    width: 100%;
+}
+
+.feedbacks-icon {
+    fill: #3AC04C;
+    margin-bottom: 12px;
+}
+
+.feedbacks-descr {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #030A06;
+    margin-bottom: 12px;
+}
+
+.feedbacks-name {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #030A06;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .feedbacks {
+        padding: 64px 0;
+    }
+
+    .feedbacks-container {
+        min-width: 768px;
+    }
+
+    .feedbacks-title {
+        width: 560px;
+        height: 43px;
+        margin: 0 auto 32px auto;
+    }
+
+    .feedbacks-list {
+       gap: 32px 24px;
+    }
+
+    .feedbacks-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .feedbacks-icon {
+        margin-bottom: 24px;
+    }
+
+    .feedbacks-descr {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .feedbacks {
+        padding: 64px 0;
+    }
+
+    .feedbacks-container {
+        min-width: 1312px;
+    }
+
+    .feedbacks-title {
+        width: 560px;
+        font-size: 48px;
+        height: 116px;
+        margin: 0 auto 80px auto;
+    }
+
+    .feedbacks-list {
+        gap: 24px;
+    }
+
+    .feedbacks-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .feedbacks-icon {
+        margin-bottom: 24px;
+    }
+    
+    .feedbacks-descr {
+        margin-bottom: 24px;
+    }
+}

@@ -31,9 +31,19 @@
     width: 100%;
 }
 
-.feedbacks-icon {
-    fill: #3AC04C;
+.stars-list {
+    display: flex;
     margin-bottom: 12px;
+    gap: 4px;
+}
+
+.stars-item {
+    height: 24px;
+    width: 24px;
+}
+
+.feedbacks-icon {
+    fill: #3AC04C;      
 }
 
 .feedbacks-descr {
@@ -77,7 +87,7 @@
         width: calc((100% - 24px) / 2);
     }
 
-    .feedbacks-icon {
+    .stars-list {
         margin-bottom: 24px;
     }
 
@@ -110,7 +120,7 @@
         width: calc((100% - 72px) / 4);
     }
 
-    .feedbacks-icon {
+    .stars-list {
         margin-bottom: 24px;
     }
     

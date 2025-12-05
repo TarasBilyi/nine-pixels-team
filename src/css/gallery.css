@@ -129,4 +129,12 @@
     width: 421px;
     height: 865px;
   }
+
+  .gallery-desktop img {
+    transition: transform 350ms ease;
+  }
+
+  .gallery-desktop img:hover {
+    transform: scale(1.03);
+  }
 }

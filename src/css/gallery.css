@@ -1,0 +1,132 @@
+/* ================= Section Padding ================= */
+.section {
+  padding: 32px 0;
+}
+
+/* ================= Headings ================= */
+.gallery-title {
+  text-align: center;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+}
+
+.gallery-description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+/* ================= UL base ================= */
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* hide all galleries by default */
+}
+
+/* ================= Round corners ================= */
+.gallery img {
+  border-radius: 32px;
+}
+
+/* ================= Mobile (default) ================= */
+.gallery-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.gallery-mobile .gallery-item img {
+  width: 288px;
+  height: 288px;
+}
+
+/* ================= Tablet ================= */
+@media (min-width: 768px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .gallery-title {
+    margin-bottom: 24px;
+  }
+
+  /* Show tablet gallery */
+  .gallery-tablet {
+    display: flex;
+    justify-content: center;
+    column-gap: 26px;
+  }
+
+  /* Hide mobile gallery */
+  .gallery-mobile {
+    display: none;
+  }
+
+  .gallery-tablet .column ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Image sizes */
+  .gallery-tablet .column-left .item1 img,
+  .gallery-tablet .column-right .item2 img {
+    width: 338px;
+    height: 338px;
+  }
+
+  .gallery-tablet .column-left .item4 img,
+  .gallery-tablet .column-right .item3 img {
+    width: 340px;
+    height: 700px;
+  }
+}
+
+/* ================= Desktop ================= */
+@media (min-width: 1440px) {
+  .gallery-title {
+    font-size: 48px;
+  }
+
+  /* Show desktop gallery */
+  .gallery-desktop {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+  }
+
+  /* Hide tablet gallery */
+  .gallery-tablet {
+    display: none;
+  }
+
+  .gallery-desktop .column ul {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Image sizes */
+  .gallery-desktop .item1 img,
+  .gallery-desktop .item2 img {
+    width: 421px;
+    height: 421px;
+  }
+
+  .gallery-desktop .item3 img,
+  .gallery-desktop .item4 img {
+    width: 421px;
+    height: 865px;
+  }
+}

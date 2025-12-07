@@ -1,7 +1,7 @@
 
 .hero {
     padding: 64px 0;
-    background: #EBF8ED;
+  
   
 }
 
@@ -19,7 +19,7 @@ display: flex;
 .hero-left {  
 display: flex;
     flex-direction: column;
-    gap: 0px;
+
 }
 
 .hero-title { 

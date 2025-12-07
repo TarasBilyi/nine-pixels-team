@@ -158,12 +158,18 @@ width: 288px;
     }
     .hero-button {
        width: 148px;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+               transform 150ms ease;
     }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: rgba(3, 10, 6, 0.5);
+}
+
+.hero-button:active {
+    background-color: #030A06;
+    transform: scale(0.97);
 }
 
     .hero-image {

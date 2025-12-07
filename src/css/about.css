@@ -1,0 +1,112 @@
+.about {
+    background-color: #2e2f42;
+    padding: 64px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(/img/about/about-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 320px;
+    
+}
+
+
+@media (min-resolution: 192dpi) {
+    .about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url(/img/about/about@2x-mobile.jpg);
+    }
+}
+
+.about-part {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+    max-width: 95px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-title {
+    font-family:"Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 288px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    max-width: 288px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 80px 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)),
+            url(/img/about/about-tab.jpg);
+        min-width: 768px;
+    }
+
+    .about-part {
+        margin-bottom: 16px;
+    }
+
+    .about-title {
+        margin-bottom: 24px;
+        max-width: 629px;
+    }
+
+    .about-description {
+        max-width: 573px;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)),
+            url(/img/about/about@2x-tab.jpg);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about {
+        padding: 112px 0px 94px 0px;
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)),
+            url(/img/about/about-comp.jpg);
+    }
+    .about-title{
+    max-width: 50%;
+    
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)),
+            url(/img/about/about@2x-comp.jpg);
+    }
+}

@@ -186,6 +186,16 @@
     width: 100%;
   }
 
+  .header-menu-link:active,
+  .header-contacts-link:active {
+    color: #3ac04c;
+  }
+
+  .header-menu-link:active::after,
+  .header-contacts-link:active::after {
+    background-color: #3ac04c;
+  }
+
   .header-contacts {
     display: block;
   }

@@ -165,6 +165,16 @@
     width: 100%;
   }
 
+  .footer-menu-link:active,
+  .footer-contacts-link:active {
+    color: #3ac04c;
+  }
+
+  .footer-menu-link:active::after,
+  .footer-contacts-link:active::after {
+    background-color: #3ac04c;
+  }
+
   .footer-socials-items {
     display: flex;
     justify-content: center;

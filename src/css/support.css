@@ -147,11 +147,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  @supports (background-image: url('/img/support/bg-support-m-w.webp')) {
+    background-image: url('/img/support/bg-support-m-w.webp');
+  }
 }
 
 @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
   .support-img {
     background-image: url('/img/support/bg-support-m@2x.jpg');
+
+    @supports (background-image: url('/img/support/bg-support-m-w@2x.webp')) {
+      background-image: url('/img/support/bg-support-m-w@2x.webp');
+    }
   }
 }
 
@@ -159,12 +167,20 @@
   .support-img {
     width: 704px;
     background-image: url('/img/support/bg-support-t.jpg');
+
+    @supports (background-image: url('/img/support/bg-support-t-w.webp')) {
+      background-image: url('/img/support/bg-support-t-w.webp');
+    }
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .support-img {
     background-image: url('/img/support/bg-support-t@2x.jpg');
+
+    @supports (background-image: url('/img/support/bg-support-t-w@2x.webp')) {
+      background-image: url('/img/support/bg-support-t-w@2x.webp');
+    }
   }
 }
 
@@ -173,11 +189,19 @@
     width: 644px;
     height: 767px;
     background-image: url('/img/support/bg-support-d.jpg');
+
+    @supports (background-image: url('/img/support/bg-support-d-w.webp')) {
+      background-image: url('/img/support/bg-support-d-w.webp');
+    }
   }
 }
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .support-img {
     background-image: url('/img/support/bg-support-d@2x.jpg');
+
+    @supports (background-image: url('/img/support/bg-support-d-w@2x.webp')) {
+      background-image: url('/img/support/bg-support-d-w@2x.webp');
+    }
   }
 }

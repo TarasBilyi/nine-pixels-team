@@ -107,22 +107,12 @@
   height: 50px;
   padding: 12px 24px;
   background-color: #030a06;
-  border: 1px solid #030a06;
   border-radius: 6px;
   color: #fff;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-send:hover,
-.button-send:focus {
-  opacity: 0.5;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-send:active {
-  background-color: #113916;
-  border-color: #113916;
-  opacity: 0.6;
   transform: scale(0.97);
 }
 
@@ -135,6 +125,18 @@
 @media screen and (min-width: 1440px) {
   .button-send {
     width: 198px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button-send:hover,
+  .button-send:focus {
+    opacity: 0.5;
+  }
+
+  .button-send:active {
+    background-color: #113916;
+    opacity: 0.6;
   }
 }
 

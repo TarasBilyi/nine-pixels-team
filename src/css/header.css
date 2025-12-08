@@ -31,6 +31,11 @@
 .burger-btn {
   padding: 0;
   background-color: transparent;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burger-btn:active {
+  transform: scale(0.9);
 }
 
 .burger-btn-icon {
@@ -83,6 +88,11 @@
   padding: 0;
   right: 20px;
   top: 16px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-close:active {
+  transform: scale(0.9);
 }
 
 .mobile-menu-nav {
@@ -98,10 +108,17 @@
 
 .mobile-menu-link,
 .mobile-contact-link {
+  display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   color: #030a06;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-link:active,
+.mobile-contact-link:active {
+  transform: scale(1.1);
 }
 
 .mobile-menu-contacts {

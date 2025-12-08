@@ -7,11 +7,11 @@
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+  max-width: 320px;
 }
 
 @media (min-resolution: 192dpi) {
   .about {
-    min-width: 320px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(/img/about/about@2x-mobile.jpg);
   }
@@ -86,7 +86,7 @@
 @media screen and (min-width: 1440px) {
   .about {
     padding: 112px 0px 94px 0px;
-    min-width: 1440px;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(/img/about/about-comp.jpg);
   }

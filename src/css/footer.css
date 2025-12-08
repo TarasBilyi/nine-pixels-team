@@ -143,6 +143,7 @@
   .footer-menu-link,
   .footer-contact-link {
     padding: 5px 0;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .footer-menu-link::after,
@@ -165,14 +166,11 @@
     width: 100%;
   }
 
-  .footer-menu-link:active,
-  .footer-contacts-link:active {
-    color: #3ac04c;
-  }
-
-  .footer-menu-link:active::after,
-  .footer-contacts-link:active::after {
-    background-color: #3ac04c;
+  .footer-menu-link:hover,
+  .footer-menu-link:focus,
+  .footer-contact-link:hover,
+  .footer-contact-link:focus {
+    transform: translateY(-2px);
   }
 
   .footer-socials-items {

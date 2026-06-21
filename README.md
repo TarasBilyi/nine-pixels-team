@@ -20,7 +20,7 @@ EcoTote is a modern, clean and fully responsive **landing page** for a brand of 
 ## Tech Stack
 
 - **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)** — Semantic markup
-- **[SCSS / CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** — Modern styling and responsiveness
+- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** — Modern styling and responsiveness
 - **[JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** — Interactivity and animations
 - **[Vite](https://vitejs.dev/)** — Fast build tool and development server
 - **Mobile-first & Responsive** design
